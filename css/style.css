@@ -1,0 +1,129 @@
+/*html, body {
+  height: 100%;
+  margin: 0;
+}
+*/
+html{
+	height: 100%;
+}
+
+body {
+    min-height:100%; 
+    position:relative; 
+    padding-bottom:60px;
+    color: #F8F8FF;
+}
+.navbar-inverse{              
+    background-image: none;  
+}
+
+.navbar-brand{
+	padding-top: 10px;
+
+}
+
+/*WIELKOSC LOGO W MENU*/
+.navbar-brand>img{
+	width: 200px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: rgb(88, 159, 220);
+}
+
+/*KOLOR NAGLOWKA*/
+.page-header{
+	color: #F8F8FF;
+}
+
+#indexBG{
+	background:url("/bootstrapPage/img/indexPhoto.jpg") center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*TŁO DO ZAKLADKI PRACA*/
+#indexBGpraca{
+	background:url("/bootstrapPage/img/autobahn.jpg") center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*TEKST NA STRONIE GLOWNEJ*/
+.index p{
+	font-size: 150%;
+	color: #F8F8FF;
+}
+
+/*ODSUNIĘCIE BUTTONA OD TEKSTU NA STRONIE GLOWNEJ*/
+.index a{
+	margin-top: 5%;
+}
+
+/*.footer {
+	padding-top: 2%;
+	position: absolute;
+	bottom: 0;
+  	width: 100%;
+	height: 60px;
+	margin-top: -60px;
+  	background-color: black;
+}*/
+
+.footer{
+	width: 100%;
+	padding-top: 15px;
+	position: absolute; 
+    left: 0 ; right: 0; bottom: 0; 
+    height:60px;
+
+  	background-color: black;
+}
+/*USLUGI*/
+.list-group li {
+	font-size: 140%;
+    color:white;/*color turns white if not changed*/
+    background: none;  
+    border-style: none;         
+}
+.list-group li a{
+	color:inherit;     
+}
+
+
+.jobs_background{
+     position: relative;
+     z-index: 1;
+    background: rgba(96, 96, 96, .7);
+    padding-top: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 3%;
+    border-radius: 10px;
+
+}
+
+.jobs_background .jobs_text{
+    
+    position:absolute;
+    height: 40%;
+    width: 80%;  
+    z-index: -1;
+}
+
+
+/*LOGA MAREK NA MALYM EKRANIE*/
+@media  (max-width: 767px) {
+    .tool>img{
+    	/*margin-top: 5%;*/
+    	max-width: 50%;
+    	margin: 5% auto;
+    }
+
+}
+
+
